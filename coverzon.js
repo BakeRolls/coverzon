@@ -6,15 +6,15 @@ let querystring = require('querystring')
 let base = 'http://www.amazon.com/s/'
 
 let parse = (data) => {
-	let regex = /<img\s+src="(.+?)"\s+srcset="(.+?)"/i
+	let covers = /<img\s+src="(.+?)"\s+srcset="(.+?)"/i.exec(data)
 
-	let covers = regex.exec(data)[2].split(', ').map((cover) => {
+	if(!covers) return []
+
+	return covers[2].split(', ').map((cover) => {
 		cover = cover.split(' ')
 
 		return { size: cover[1], url: cover[0] }
 	})
-
-	return covers
 }
 
 let get = (query) => new Promise((resolve, reject) => {
