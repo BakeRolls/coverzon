@@ -1,3 +1,14 @@
+```js
+'use strict'
+
+let coverzon = require('./coverzon')
+
+coverzon.get('Deltron 3030 - Event II').then((covers) => {
+	console.log(covers)
+})
+```
+
+```
 $ node index.js
 [ { size: '1x',
     url: 'http://ecx.images-amazon.com/images/I/51ESfMb6mLL._AA160_.jpg' },
@@ -9,3 +20,4 @@ $ node index.js
     url: 'http://ecx.images-amazon.com/images/I/51ESfMb6mLL._AA400_QL65_.jpg' },
   { size: '3x',
     url: 'http://ecx.images-amazon.com/images/I/51ESfMb6mLL._AA480_QL65_.jpg' } ]
+```
