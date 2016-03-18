@@ -1,0 +1,23 @@
+{
+  "name": "coverzon",
+  "version": "0.1.1",
+  "description": "Fetch covers from Amazons search results",
+  "main": "coverzon.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gist.github.com/c741e2f9faceca5e6b08.git"
+  },
+  "keywords": [
+    "amazon",
+    "cover",
+    "audio",
+    "metadata"
+  ],
+  "author": "bake",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://gist.github.com/c741e2f9faceca5e6b08"
+  },
+  "homepage": "https://gist.github.com/c741e2f9faceca5e6b08"
+}
