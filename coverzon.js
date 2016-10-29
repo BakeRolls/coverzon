@@ -1,11 +1,11 @@
 'use strict'
 
-let http = require('http')
-let querystring = require('querystring')
+const https = require('https')
+const querystring = require('querystring')
 
-let base = 'http://www.amazon.com/s/'
+const base = 'https://www.amazon.com/s/'
 
-let parse = (data) => {
+const parse = (data) => {
 	let covers = /<img\s+src="(.+?)"\s+srcset="(.+?)"/i.exec(data)
 
 	if(!covers) return []
@@ -17,10 +17,10 @@ let parse = (data) => {
 	})
 }
 
-let get = (query) => new Promise((resolve, reject) => {
+const get = (query) => new Promise((resolve, reject) => {
 	let data = ''
 
-	http.get(`${base}${querystring.stringify({ 'field-keywords': query })}`, (res) => {
+	https.get(`${base}${querystring.stringify({ 'field-keywords': query })}`, (res) => {
 		res.on('data', (chunk) => data += chunk)
 		res.on('end', () => resolve(parse(data)))
 	}).on('error', reject)
