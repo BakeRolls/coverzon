@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gist.github.com/c741e2f9faceca5e6b08.git"
+    "url": "git@github.com:BakeRolls/coverzon.git"
   },
   "keywords": [
     "amazon",
@@ -17,7 +17,7 @@
   "author": "bake",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://gist.github.com/c741e2f9faceca5e6b08"
+    "url": "https://github.com/BakeRolls/coverzon/issues"
   },
-  "homepage": "https://gist.github.com/c741e2f9faceca5e6b08"
+  "homepage": "https://github.com/BakeRolls/coverzon"
 }

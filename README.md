@@ -5,7 +5,7 @@ $ npm i coverzon
 ```js
 'use strict'
 
-let coverzon = require('coverzon')
+const coverzon = require('coverzon')
 
 coverzon.get('Deltron 3030 - Event II').then((covers) => {
 	console.log(covers)
