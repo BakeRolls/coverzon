@@ -4,6 +4,9 @@
   "description": "Fetch covers from Amazons search results",
   "main": "coverzon.js",
   "scripts": {},
+  "bin": {
+    "coverzon": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:BakeRolls/coverzon.git"
