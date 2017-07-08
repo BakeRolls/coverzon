@@ -1,26 +1,21 @@
 {
-  "name": "coverzon",
-  "version": "0.1.3",
-  "description": "Fetch covers from Amazons search results",
-  "main": "coverzon.js",
-  "scripts": {},
-  "bin": {
-    "coverzon": "cli.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:BakeRolls/coverzon.git"
-  },
-  "keywords": [
-    "amazon",
-    "cover",
-    "audio",
-    "metadata"
-  ],
-  "author": "bake",
-  "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/BakeRolls/coverzon/issues"
-  },
-  "homepage": "https://github.com/BakeRolls/coverzon"
+	"name": "coverzon",
+	"version": "0.1.4",
+	"description": "Fetch covers from Amazons search results",
+	"main": "coverzon.js",
+	"scripts": {},
+	"bin": {
+		"coverzon": "cli.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:BakeRolls/coverzon.git"
+	},
+	"keywords": ["amazon", "cover", "audio", "metadata"],
+	"author": "bake",
+	"license": "WTFPL",
+	"bugs": {
+		"url": "https://github.com/BakeRolls/coverzon/issues"
+	},
+	"homepage": "https://github.com/BakeRolls/coverzon"
 }
