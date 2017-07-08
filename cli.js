@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const os = require('os')
-const coverzon = require('./coverzon')
+const coverzon = require('coverzon')
 
 if (process.argv.length < 3) {
 	console.warn('$ coverzon artist [size]')
